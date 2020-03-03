@@ -4,7 +4,7 @@ import graph7
 import graph8
 import graph9
 import graph10
-
+import graph11
 def dfs(G,u):
     n = len(G.nodes())
     global visited_counter
@@ -50,4 +50,10 @@ G10=graph10.Graph()
 visited_counter = 0
 print('The nodes of G10 are visited by depth-first-search in this order:')
 dfs(G10,1)
+print()
+
+G11=graph11.Graph()
+visited_counter = 0
+print('The nodes of G11 are visited by depth-first-search in this order:')
+dfs(G11,1)
 print()
